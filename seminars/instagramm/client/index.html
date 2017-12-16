@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>  
+    <link rel="stelesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+    Превед! 
+    <a v-link="{ path: '/register' }">GO!</a>
+    <router-view></router-view>
+    </div>    
+    <script src="bundle.js"></script>
+</body>    
+</html>
