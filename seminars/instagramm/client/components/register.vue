@@ -4,7 +4,7 @@
             <input type="text" class="form-control"  placeholder="Логин" v-model="username">
             <input type="password" class="form-control"  placeholder="Пароль" v-model="passwordA">
             <input type="password" class="form-control"  placeholder="Повтор Пароля" v-model="passwordB">
-            <button type="submit" class="btn btn-primary">Зарегистрироваться!</button>
+            <button type="submit" class="btn btn-primary" v-on:click="register">Зарегистрироваться!</button>
         </form>
     </div>
 </template>

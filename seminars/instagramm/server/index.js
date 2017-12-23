@@ -2,11 +2,11 @@ var express = require("express");
 var vjm = require("vue-jwt-mongo");
 
 var mongourl = "mongodb://localhost/photofeed";
-var secret = "F6FJD1bekyFoo0HEbBnDdRIvgAjtksnpLlvsKNVH7lFGzBKhs0Zp5KUuCOaJqRt";
+var secret = "3A8507F8F1D672705A77410063EA45F20919437837100BA68C07492AE6EF8C3D";
 
 var app = express();
 var vjmServer = vjm.Server({
-    mongoUrl: mongoUrl,
+    mongoUrl: mongourl,
     jwtSecret: secret
 });
 
